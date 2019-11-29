@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pregunta5">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/cenicienta" />
+
+    <TextView
+        android:id="@+id/pregunta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿A qué hora se acababa el hechizo de Cenicienta?"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/cincoam_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="perder"
+        android:text="5 AM" />
+
+    <Button
+        android:id="@+id/doceam_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="continuar"
+        android:text="00 AM" />
+
+    <Button
+        android:id="@+id/oncepm_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="perder"
+        android:text="11 PM" />
+
+    <Button
+        android:id="@+id/dosam_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="perder"
+        android:text="2 AM" />
+</LinearLayout>

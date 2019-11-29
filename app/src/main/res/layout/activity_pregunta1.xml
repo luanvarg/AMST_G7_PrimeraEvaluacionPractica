@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pregunta1">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/timon" />
+
+    <TextView
+        android:id="@+id/pregunta1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Cuál es la frase celebre de Timón y Pumba?"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/yafue_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="perder"
+        android:text="Ya fue" />
+
+    <Button
+        android:id="@+id/vida_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="perder"
+        android:text="La vida es una sola" />
+
+    <Button
+        android:id="@+id/hakuna_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="continuar"
+        android:text="Hakuna Matata" />
+
+    <Button
+        android:id="@+id/forma_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="perder"
+        android:text="Una forma de ser" />
+</LinearLayout>

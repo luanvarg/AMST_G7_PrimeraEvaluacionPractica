@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pregunta3">
+
+    <ImageView
+        android:id="@+id/bella"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/bella" />
+
+    <TextView
+        android:id="@+id/pregunta3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿De quién se enamora Bella?"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/erick_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="perder"
+        android:text="PRINCIPE ERICK" />
+
+    <Button
+        android:id="@+id/charming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="perder"
+        android:text="Prince Charming" />
+
+    <Button
+        android:id="@+id/bestia_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="continuar"
+        android:text="LA BESTIA" />
+
+    <Button
+        android:id="@+id/shrek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="perder"
+        android:text="SHREK" />
+</LinearLayout>

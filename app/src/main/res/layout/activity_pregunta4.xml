@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pregunta4">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/mickey" />
+    <TextView
+        android:id="@+id/pregunta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Quien es este personaje?"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/coyote_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="perder"
+        android:text="EL COYOTE" />
+
+    <Button
+        android:id="@+id/mickey_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="continuar"
+        android:text="MICKEY MOUSE" />
+
+    <Button
+        android:id="@+id/spirit_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="perder"
+        android:text="SPIRIT" />
+
+    <Button
+        android:id="@+id/rodolfo_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="perder"
+        android:text="RODOLFO EL RENO" />
+</LinearLayout>
+
